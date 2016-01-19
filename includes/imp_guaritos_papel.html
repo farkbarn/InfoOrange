@@ -1,0 +1,18 @@
+<div class="label_container">
+	<div class="label_categoria"> + Guaritos de Papel </div>
+	<div class="flecha"></div>
+</div>
+<div class="clear"></div>
+<div class="clasificado">
+<?php query_posts('category_name=GUARITOS&posts_per_page=1' );
+while ( have_posts() ) : the_post(); 
+?>
+<a href="<?php the_title();?>/?mode=window" target="_blank">
+<?php if(has_post_thumbnail()): // si tiene imagen 
+	$pimagen =  wp_get_attachment_image_src( get_post_thumbnail_id(), 'full' , false );  // capturando arreglo url, ancho, alto
+?>
+	<img align="center" src="<?php echo $pimagen[0] ?>" alt="<?php the_title(); ?>" width="180px" height="210px" />
+<?php endif ?>
+</a>
+<?php endwhile; ?>
+</div>

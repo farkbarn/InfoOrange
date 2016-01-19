@@ -1,0 +1,21 @@
+                        <div class="busqueda">
+                                <div id="cont_busc">
+                                        <div class="buscador">
+                                                <a class="noticia_linea" href="<?php echo home_url(); ?>">Noticias en Linea</a>
+                                                <a class="label_buscador"><span>| </span>Buscador:</a>
+                                        </div>
+                                        <div class="buscador" id="buscadorinp">
+                                                <form method="get" id="searchform" action="<?php bloginfo('home'); ?>">
+                                                 <input class="caja" type="text" value="<?php echo $search_text; ?>"
+                                                         name="s" id="s"  onblur="if (this.value == '')  {this.value = '<?php echo $search_text; ?>';}"
+                                                         onfocus="if (this.value == '<?php echo $search_text; ?>') {this.value = '';}" placeholder="buscar aquí" />
+                                                 <input class="boton" id="bot_bus" type="submit" value="Buscar">
+                                                </form>
+                                        </div>
+                                </div>
+                                        <div class="contacto">
+		<div id="tarifas"  ><a href="http://www.elinformador.com.ve/tarifas-3/">Tarifas <span> Consulte nuestras Tarifas </span></a></div>
+		<div id="contacto1"><a href="http://www.elinformador.com.ve/contacto/">Contáctenos <span> Su opinión nos interesa</span></a></div>
+		<div id="contacto2"><a href="http://www.elinformador.com.ve/quienes-somos/">Quiénes Somos <span > El Informador C.A.</span></a></div>
+                                        </div>
+                        </div>

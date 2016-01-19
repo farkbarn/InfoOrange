@@ -1,0 +1,19 @@
+		<div class="label_container">
+			<div class="label_categoria"> + Edición Impresa</div>
+			<div class="flecha"></div>
+		</div>
+		<div class="clear"></div>
+		<div class="edicion_impresa">
+		<?php query_posts('category_name=IMPRESO&posts_per_page=1' );
+		while ( have_posts() ) : the_post(); 
+		?>
+	    <a href="<?php the_title();?>/?mode=window" target="_blank">
+	    <?php if(has_post_thumbnail()): // si tiene imagen 
+			$pimagen =  wp_get_attachment_image_src( get_post_thumbnail_id(), 'full' , false );  // capturando arreglo url, ancho, alto
+		?>
+			<img src="<?php echo $pimagen[0] ?>" alt="<?php the_title(); ?>" width="180px" height="310px" /> <!-- width="<?php echo $pimagen[1]; ?>" height="<?php echo $pimagen[2]; ?>"-->
+		<?php endif ?>
+			<!--<img src="wp-content/themes/elinformador/images/edicion_impresa.jpg" width="180px" height="310px" alt="Impresos"/>-->
+	    </a>
+	    <?php endwhile; ?>
+		</div>
