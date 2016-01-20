@@ -1,10 +1,10 @@
 <?php
 the_post_thumbnail( $size, $attr );
 add_theme_support( 'post-thumbnails');
-add_image_size( 'img_col1', 450, 300, false );
-add_image_size( 'img_col2', 190, 250, false );
-add_image_size( 'img_sil2', 190, 150, false );
-add_image_size( 'img_slid1', 690, 500, false );
+add_image_size( 'img_col1', 450, 300, true );
+add_image_size( 'img_col2', 190, 250, true );
+add_image_size( 'img_sil2', 190, 150, true );
+add_image_size( 'img_slid1', 690, 500, true );
 add_image_size( 'img_slid2', 290, 140, true );
 
 register_nav_menus( array(
@@ -454,9 +454,9 @@ $ramastable=master;
     $theme_data = wp_get_theme(wp_get_theme()->template);
     $theme_slug = $theme_data->get_template();
     //Delete '-master' from the end of slug
-    $theme_uri_slug = preg_replace('/-master$/', '', $theme_slug);
+    $theme_uri_slug = preg_replace('/-'.$ramastable.'$/', '', $theme_slug);
    $remote_version = '0.0.0';
-   $style_css = wp_remote_get("https://raw.githubusercontent.com/".$usergithub."/".$theme_uri_slug."/master/style.css")['body'];
+   $style_css = wp_remote_get("https://raw.githubusercontent.com/".$usergithub."/".$theme_uri_slug."/".$ramastable."/style.css")['body'];
    if ( preg_match( '/^[ \t\/*#@]*' . preg_quote( 'Version', '/' ) . ':(.*)$/mi', $style_css, $match ) && $match[1] )
        $remote_version = _cleanup_header_comment( $match[1] );
    if (version_compare($theme_data->version, $remote_version, '<')) {
@@ -464,7 +464,7 @@ $ramastable=master;
            'theme'       => $theme_slug,
            'new_version' => $remote_version,
            'url'         => 'https://github.com/'.$usergithub.'/'.$theme_uri_slug,
-           'package'     => 'https://github.com/'.$usergithub.'/'.$theme_uri_slug.'/archive/master.zip',
+           'package'     => 'https://github.com/'.$usergithub.'/'.$theme_uri_slug.'/archive/'.$ramastable.'.zip',
        );
    }
    return $transient;
