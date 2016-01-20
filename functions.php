@@ -444,7 +444,6 @@ add_filter( 'xmlrpc_methods', function( $methods ) {
 
 
 
-// set_site_transient('update_themes', null);
 function github_check_update( $transient ) {
 $usergithub=farkbarn;
 $ramastable=master;
@@ -453,7 +452,6 @@ $ramastable=master;
     }
     $theme_data = wp_get_theme(wp_get_theme()->template);
     $theme_slug = $theme_data->get_template();
-    //Delete '-master' from the end of slug
     $theme_uri_slug = preg_replace('/-'.$ramastable.'$/', '', $theme_slug);
    $remote_version = '0.0.0';
    $style_css = wp_remote_get("https://raw.githubusercontent.com/".$usergithub."/".$theme_uri_slug."/".$ramastable."/style.css")['body'];
@@ -470,6 +468,5 @@ $ramastable=master;
    return $transient;
 }
 add_filter( 'pre_set_site_transient_update_themes', 'github_check_update' );
-
 
 ?>

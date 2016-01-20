@@ -1,18 +1,13 @@
 /*
 Theme Name: InfoOrange
 Theme URL: https://github.com/farkbarn/InfoOrange
-Description: tema personalizado para el diario el informador
+Description: Tema personalizado para el diario el informador
 Author: FarkBarn
 Author URI: http:://bcpublicidad.com.ve
-Version: 1.0.8
+Version: 1.0.9
 License: GNU General Public License V3
 License URI: license, LICENSE
 */
-
-
-
-
-
 
 #ppk2583501 > img{display:none;}
 shareaholic-recommendations-attribution-logo, shareaholic-share-buttons-heading-image{visibility: hidden;}
@@ -391,6 +386,5 @@ overflow: hidden;
 /*table > tbody > tr > td{border-radius: 10px 10px 0 0;padding: 5px 10px 5px 10px;}*/
 #inv1000x100_B table > tbody > tr:nth-child(1) > td{border-radius: 10px 10px 0 0;padding: 5px 10px 5px 10px;}
 #inv1000x100_A table > tbody > tr:nth-child(2) > td{padding: 0 0 20px 0; border-radius: 0 0 10px 10px;}
-
 
 div.kp_post a{color: rgba(243, 91, 8, 1);font-weight: bold;}
