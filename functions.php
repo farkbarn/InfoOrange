@@ -445,7 +445,7 @@ add_filter( 'xmlrpc_methods', function( $methods ) {
 
 
 // set_site_transient('update_themes', null);
-function geko_check_update( $transient ) {
+function github_check_update( $transient ) {
 $usergithub=farkbarn;
 $ramastable=master;
     if ( empty( $transient->checked ) ) {
@@ -469,7 +469,7 @@ $ramastable=master;
    }
    return $transient;
 }
-add_filter( 'pre_set_site_transient_update_themes', 'geko_check_update' );
+add_filter( 'pre_set_site_transient_update_themes', 'github_check_update' );
 
 
 ?>
