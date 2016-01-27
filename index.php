@@ -1,7 +1,7 @@
 <?php #CANTIDAD DE NOTAS POR COLUMNA
 $max_A1=20;
 $max_B1=0;
-$max_A2=$max_A1+31;
+$max_A2=$max_A1+32;
 $max_B2=$max_B1+0;
 $ini_Acol2=$max_A1+1;
 $ini_Bcol2=$max_B1+1;
