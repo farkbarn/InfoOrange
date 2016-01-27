@@ -469,4 +469,14 @@ $ramastable=master;
 }
 add_filter( 'pre_set_site_transient_update_themes', 'github_check_update' );
 
+
+// Cambiar el pie de pagina del panel de Administración
+function change_footer_admin() {
+    echo '&copy;2016 Copyright EL INFORMADOR. Todos los derechos reservados - Web creada por <a href="http://www.elinformador.com.ve">El Informador</a>';  
+}
+add_filter('admin_footer_text', 'change_footer_admin');
+
+
+
 ?>
+
