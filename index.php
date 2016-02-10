@@ -1,5 +1,5 @@
 <?php #CANTIDAD DE NOTAS POR COLUMNA
-$max_A1=20;
+$max_A1=21;
 $max_B1=0;
 $max_A2=$max_A1+32;
 $max_B2=$max_B1+0;
@@ -62,7 +62,7 @@ $val=rand(1, 10);
                                                                         <?php //include("zon_ads/Zona_J_468x350.html");?>
                                                                 </div>
                                                                 <div id="Zona_J_aux_468x350">
-									<?php include("zon_ads/Zona_J_aux_468x350_video.html");?>
+									<?php //include("zon_ads/Zona_J_aux_468x350_video.html");?>
                                                                 </div>
                                                         </div>
 							<div class="espacio05"></div>
