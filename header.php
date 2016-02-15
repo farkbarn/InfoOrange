@@ -253,7 +253,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								var dayarray=new Array("Domingo,","Lunes,","Martes,","Miércoles,","Jueves,","Viernes,","Sábado,")
 								var montharray=new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre")
 								document.write("<font color='white'>"+dayarray[day]+" "+daym+" de "+montharray[month]+" de "+year+"</font>")
-						</script></font>
+						</script>
 					</div>
 				</div>
 			<?php include("includes/silueta.php");?>
