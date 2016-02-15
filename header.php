@@ -37,7 +37,7 @@ define("homeUrl", "www.elinformador.com.ve");
 		<meta name="keywords" content="xbox,nasa,marte,smart,phone,inteligente,sony,wikipedia,noticia" />
 		<meta name="keywords" content="gripe,vacuna,h1n,virus,embarazo,cancer,alimento,VIH,violencia,obesidad" />
 		<meta name="keywords" content="Elinformador,El Informador,Diario,Periodico,Noticias,periodismo"  />
-<?php //		<script async="async" src="/wp-content/themes/nueva/js/vendor/modernizr-2.6.1.min.js" ></script> ?>
+		<?php //<script async="async" src="/wp-content/themes/nueva/js/vendor/modernizr-2.6.1.min.js" ></script> ?>
 		<?php //versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."style.css") ?>
 		<?php //versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."responsive.css") ?>
 		<?php //versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."slider.css") ?>
@@ -134,7 +134,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MPP3R8');</script>
 <?php /* <!-- End Google Tag Manager --> */ ?>
-<?php //include('zon_ads/pageunder.js'); ?>
+
+<?php include('zon_ads/pageunder.js'); ?>
+
 	</head>
 	<body class="<?php /* echo exclude_categoria();*/ ?>">
 	<div id="inv_cen">
