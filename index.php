@@ -95,10 +95,10 @@ $val=rand(1, 10);
 						<div class="not_col_2">
 							<div class="zon_pub">
 								<div id="Zona_K_200x200">
-									<?php include("zon_ads/Zona_K_200x200.html");?>
+									<?php include("zon_ads/Zona_K_200x200.html"); ?>
 								</div>
                                                                 <div id="Zona_K_aux_200x200">
-                                                                        <?php include("zon_ads/Zona_K_aux_200x200.html");?>
+                                                                        <?php include("zon_ads/Zona_K_aux_200x200.html"); ?>
                                                                 </div>
 								<div id="Zona_K_aux_200x200">
                                                                         <?php //include("zon_ads/Zona_k3_200x300.html");?>

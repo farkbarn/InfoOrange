@@ -11,14 +11,4 @@
 			<div class="espacio10"></div>
 <?php wp_footer(); ?>
 	</body>
-
-<?php /* PAGE UNDER */ ?>
-<?php /* PAGE UNDER */ ?>
-
-<?php /*<script type="text/javascript">
-jQuery.preloadImages = function(){
-  for(var i = 0; i<arguments.length; i++){
-    jQuery("<img>").attr("src", arguments[i]);
-}
-</script> */?>
 </html>

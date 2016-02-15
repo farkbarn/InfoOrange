@@ -102,6 +102,7 @@ $(function(){
 			<p class="chromeframe"> Usted est√ usando un Navegador <strong>Desactualizado</strong>. Por favor <a href="http://browsehappy.com/">Actualicese</a> o <a href="http://www.google.com/chromeframe/?redirect=true"> Active Google Chrome Frame</a> para mejorar su experiencia.</p>
 		<![endif]-->
 <script type='text/javascript' src='http://ads.elinformador.com.ve/www/delivery/spcjs.php?id=1'></script>
+
 <script async="async">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -122,14 +123,6 @@ if (isset($userId)) {
   ga('send', 'pageview');
 </script>
 
-<?php /*<script defer>
-	dataLayer = [];
-</script>
-<script defer>
-	var cat = document.URL.match(/temas/([^&]+)/)[1];
-	dataLayer=[{'Categoriavalor':cat}];
-</script>*/
-?>
 <?php /*
 <!-- <script defer src='https://www.google.com/recaptcha/api.js'></script> -->
 <!-- Google Tag Manager --> */ ?>
@@ -141,9 +134,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MPP3R8');</script>
 <?php /* <!-- End Google Tag Manager --> */ ?>
-<?php include('zon_ads/pageunder.js'); ?>
+<?php //include('zon_ads/pageunder.js'); ?>
 	</head>
-	<body class="<?php /* echo exclude_categoria();*/?>">
+	<body class="<?php /* echo exclude_categoria();*/ ?>">
 	<div id="inv_cen">
 		<div id="inv400"><?php //include("zon_ads/Zona_Inv_400.html");?></div>
 	        <div id="inv800"><?php //include("zon_ads/Zona_Inv_800.html");?></div>
