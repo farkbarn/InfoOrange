@@ -75,7 +75,7 @@ define("homeUrl", "www.elinformador.com.ve");
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 		<script async type="text/javascript" src="/wp-content/themes/nueva/js/jquery.cycle.all.js"></script>
 		<link rel="icon" type="image/gif" href="/wp-content/themes/nueva/img/favicon.gif" />
-		<title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?> | El Diario Online de Venezuela</title>
+		<title><?php wp_title('&laquo;', true, 'right'); ?> <?php //bloginfo('name'); ?> </title>
 <script defer type="text/javascript">//<![CDATA[
 $(function(){
     $('#silueta article:gt(0)').hide();
@@ -135,7 +135,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MPP3R8');</script>
 <?php /* <!-- End Google Tag Manager --> */ ?>
 
-<?php // include('zon_ads/pageunder.js'); ?>
+<?php include('zon_ads/pageunder.js'); ?>
 
 	</head>
 	<body class="<?php /* echo exclude_categoria();*/ ?>">

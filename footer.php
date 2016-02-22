@@ -11,5 +11,5 @@
 			<div class="espacio10"></div>
 <?php wp_footer(); ?>
 	</body>
-<?php include('zon_ads/pageunder.js'); ?>
+<?php //include('zon_ads/pageunder.js'); ?>
 </html>
