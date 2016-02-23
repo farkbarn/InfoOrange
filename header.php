@@ -76,10 +76,11 @@ define("homeUrl", "www.elinformador.com.ve");
 		<script async type="text/javascript" src="/wp-content/themes/nueva/js/jquery.cycle.all.js"></script>
 		<link rel="icon" type="image/gif" href="/wp-content/themes/nueva/img/favicon.gif" />
 <?php
-/*	$url=home_url(add_query_arg(array()));
+	$url=home_url(add_query_arg(array()));
 	$tit='';
-	if($url=='http://www.elinformador.com.ve/'){ $tit='El Informador - Diario Online Venezolano'}
-*/
+	if($url=='http://www.elinformador.com.ve/'){
+		$tit='El Informador - Diario Online Venezolano';
+	}
 ?>
 		<title><?php wp_title('', true, 'right'); ?> <?php //echo $tit; //bloginfo('name'); ?> </title>
 <script defer type="text/javascript">//<![CDATA[
