@@ -82,7 +82,7 @@ define("homeUrl", "www.elinformador.com.ve");
 		$tit='El Informador - Diario Online Venezolano';
 	}
 ?>
-		<title><?php wp_title('', true, 'right'); ?> <?php //echo $tit; //bloginfo('name'); ?> </title>
+		<title><?php wp_title('', true, 'right'); ?> <?php echo $tit; //bloginfo('name'); ?> </title>
 <script defer type="text/javascript">//<![CDATA[
 $(function(){
     $('#silueta article:gt(0)').hide();
