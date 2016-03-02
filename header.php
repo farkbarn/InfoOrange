@@ -12,9 +12,9 @@ define("homeUrl", "www.elinformador.com.ve");
 ?>
 	<head>
                 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:700,400" >
-                <link rel="stylesheet" href="style.css" >
-                <link rel="stylesheet" href="responsive.css" >
-                <link rel="stylesheet" href="slider.css" >
+                <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/style.css" >
+                <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/responsive.css" >
+                <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/slider.css" >
 		<?php wp_head(); ?>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -73,8 +73,8 @@ define("homeUrl", "www.elinformador.com.ve");
 			<script src="http://code.jquery.com/jquery-latest.js"></script>
 */ ?>
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-		<script async type="text/javascript" src="js/jquery.cycle.all.js"></script>
-		<link rel="icon" type="image/gif" href="img/favicon.gif" />
+		<script async type="text/javascript" src="/wp-content/themes/InfoOrange-master/js/jquery.cycle.all.js"></script>
+		<link rel="icon" type="image/gif" href="/wp-content/themes/InfoOrange-master/img/favicon.gif" />
 <?php
 	$url=home_url(add_query_arg(array()));
 	$tit='';
@@ -268,7 +268,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div id="con_menu">
 				<div class="" id="menu">
 					<div id="men_izq">
-					<div id="men_ini"><a href="<?php echo home_url(); ?>"><img id="ico_hom" src="<?php ?>img/btn_home.png" /></a></div>
+					<div id="men_ini"><a href="<?php echo home_url(); ?>"><img id="ico_hom" src="<?php ?>/wp-content/themes/InfoOrange-master/img/btn_home.png" /></a></div>
 					<div id="men_con">
 						<div id="men_barq_reg"><a href="<?php echo $men_cat; ?>lara">Lara</a></div>
 							<div id="con_3_4">
