@@ -4,7 +4,7 @@ Theme URL: https://github.com/farkbarn/InfoOrange
 Description: Tema personalizado para el diario el informador
 Author: FarkBarn
 Author URI: http:://bcpublicidad.com.ve
-Version: 1.0.36
+Version: 1.0.37
 License: GNU General Public License V3
 License URI: http://www.gnu.org/copyleft/gpl.html
 */
@@ -21,7 +21,7 @@ shareaholic-recommendations-attribution-logo, shareaholic-share-buttons-heading-
     background: #E34B0B;
 }
 
-html body{background-color:black;background:url(img/overlay.png);background-size:17px;font-family:roboto;color:black;line-height:1.6em;}
+html body{background-color:white;/*background:url(img/overlay.png);*/background-size:17px;font-family:roboto;color:black;line-height:1.6em;}
 /*.Estancia{background-color:black;background:url(img/fon_est.jpg);background-size:70px;}*/
 /*body.Deportes, body.COPA, body.AMERICA, body.COPA.AMERICA{background-color:black;background:url(img/fon_cop_ame_2015.png);background-size:180px;}*/
 
@@ -37,7 +37,7 @@ a:hover{opacity:0.7;}
 .p{font-family:′roboto′, Arial, serif;font-weight:400;}
 h1 h1 a h2 h2 a{line-height:1.2em;}
 article{padding:0;margin:0;line-height:0em;}
-#contenedor{overflow:hidden;width:988px;/*height:6310px;*/color:black;background-color:rgb(214, 214, 214);margin:15px auto;border-radius:10px;padding:3px;}
+#contenedor{overflow:hidden;width:988px;/*height:6310px;*/color:black;background-color:rgb(243, 243, 243);margin:15px auto;border-radius:10px;padding:3px;}
 .espacio03{height:3px;width:100%;}
 .espacio05{height:5px;width:100%;}
 .espacio10{height:10px;width:100%;}
