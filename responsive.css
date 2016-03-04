@@ -58,6 +58,8 @@
 @media only screen and (max-width:600px){.slider{display:none;}.con_fot_not_col2:{height:auto;}}
 
 @media only screen and (max-width:500px){
+.espacio05{display:none;}
+.contacto{display:none;}
 #rapida{width:20%;}
 #marq_tit{width:80%;}
 /*.not_col_2{display:none;}*/
