@@ -152,6 +152,9 @@ $val=rand(1, 10);
                                                         <div id="Zona_N_300x600">
                                                                 <?php include("zon_ads/Zona_N_300x600.html");?>
                                                         </div>
+                                                        <div id="Zona_N_2_300x600">
+                                                                <?php include("zon_ads/Zona_N_2_300x600.html");?>
+                                                        </div>
                                                         <div id="Zona_L_300x250">
 	                                                        <?php if($val>5){include('zon_ads/Zona_l_300x250.html');}else{include('zon_ads/Zona_l_300x250.html');} ?>
 								<?php include('zon_ads/Zona_l2_300x250.html'); ?>
