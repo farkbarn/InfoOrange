@@ -313,7 +313,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="sep"></div>
 			<div class="espacio05"></div>
 			<div id="marquesina">
-				<div id="rapida"> <p> + RÁPIDAS </p></div>
+				<div id="rapida"> <p>RÁPIDAS </p></div>
 				<div id="marq_tit"> <?php include("includes/marquesina.php");?>	</div>
 			</div>
 			<div class="limpiar"></div>

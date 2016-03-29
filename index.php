@@ -105,7 +105,7 @@ $val=rand(1, 10);
                                                                 </div>
 							</div>
 <!--							<div class="label_container">
-								<div class="label_categoria"> + Destacadas</div>
+								<div class="label_categoria"> Destacadas</div>
 								<div class="flecha"></div>
 							</div>
 -->
@@ -256,7 +256,7 @@ $val=rand(1, 10);
                                                                 </div>
 							</div>
 <!--							<div class="label_container">
-								<div class="label_categoria"> + Destacadas</div>
+								<div class="label_categoria"> Destacadas</div>
 								<div class="flecha"></div>
 							</div>
 -->

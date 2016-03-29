@@ -84,7 +84,7 @@
 #social{width:15%;height:75px;float:left;border-radius:10px;border:1px solid white;margin:2px 0 0 1%;display:none;}
 #menu{width:100%;height:auto;float:right;font-size:80%;}
 #men_izq{width:55%;height:120px;float:left;}
-#men_ini{width:15%;height:25%;float:right;margin-left:2.5%;margin-right:2.5%;margin-top:8%;border-radius:5px;border-bottom:1px solid #800000;border-top:1px solid #800000;border-radius:4px;}
+#men_ini{width:15%;height:25%;float:right;margin-left:2.5%;margin-right:2.5%;margin-top:8%;}
 #ico_hom{margin:20% 20% 20% 25%;width:50%;height:50%;float:left;}
 #men_con{width:80%;height:40px;float:left;}
 #men_barq_reg{width:100%;height:25px;float:left;border-bottom:none;text-align:center;}
@@ -102,7 +102,7 @@
 
 @media only screen and (max-width:360px){#contenedor{width:98%;min-width:120px;max-width:370px;}
 #Zona_C_AUX_728x90{width:100%;height:auto;}
-#men_ini{height:15%;border-radius:4px;}
+#men_ini{height:15%;}
 .lateral_dep,#Zona_C_AUX_260x90{display:hide;}
 #men_barq_reg,#men_dep,#men_zon_soc,#men_neg,#men_ven_mun,#men_suc{height:auto;}
 #s{width:60%;}

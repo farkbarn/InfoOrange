@@ -121,7 +121,7 @@ table{border-collapse:collapse;border-spacing:0;}
 .fotos{width:100%;height:100%;}
 .container{margin:0 auto;overflow:hidden;width:100%;height:100%;}
 #content-slider{width:100%;height:100%;margin:0 auto;}
-#slider{width:100%;height:100%;background:#000;margin:0 auto;overflow:visible;position:relative;}
+#slider{width:100%;height:100%;margin:0 auto;overflow:visible;position:relative;}
 #mask{overflow:hidden;width:100%;height:100%;}
 #slider ul{margin:0;padding:0;position:relative;}
 #slider li{width:100%;height:500px;position:absolute;top:505px;list-style:none;}
@@ -135,7 +135,7 @@ table{border-collapse:collapse;border-spacing:0;}
 #slider li#second:hover .tooltip,
 #slider li#third:hover .tooltip,
 #slider li#fourth:hover .tooltip,
-#slider li#fifth:hover .tooltip{border-radius:5px;left:0px;}
+#slider li#fifth:hover .tooltip{left:0px;}
 #slider:hover li,
 #slider:hover .progress-bar{-moz-animation-play-state:paused;-webkit-animation-play-state:paused;}
 .progress-bar{position:relative;top:-5px;width:680px;height:5px;background:#ba360b;-moz-animation:fullexpand 25s ease-out infinite;-webkit-animation:fullexpand 25s ease-out infinite;}

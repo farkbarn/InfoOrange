@@ -17,7 +17,7 @@
                                                 </div>
 						<div class="clear"></div><div class="espacio05"></div>
 							<div class="label_container">
-								<div class="label_categoria"> + Destacadas</div>
+								<div class="label_categoria">Destacadas</div>
 								<div class="flecha"></div>
 							</div>
 							<div class="clear"></div>
