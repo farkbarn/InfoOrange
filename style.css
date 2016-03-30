@@ -4,7 +4,7 @@ Theme URL: https://github.com/farkbarn/InfoOrange
 Description: Tema personalizado para el diario el informador
 Author: FarkBarn
 Author URI: http:://bcpublicidad.com.ve
-Version: 1.0.41
+Version: 1.0.42
 License: GNU General Public License V3
 License URI: http://www.gnu.org/copyleft/gpl.html
 */
@@ -199,7 +199,7 @@ s#bot_sil .nav #next2{text-align:right;text-decoration:none;color:white;}
 .compartir{float:right;}
 .label_container{position:relative;z-index:9;}
 .label_container .flecha{display:none;}
-.label_container .label_categoria{background:#FF4C19;color:#fff;font-weight:bold;font-size:12px;line-height:1.2;text-transform:uppercase;width:auto;padding:5px 8px;}
+.label_container .label_categoria{background:#FF4C19;color:#fff;font-weight:bold;font-size:12px;line-height:1.2;text-transform:uppercase;width:auto;padding:5px 8px;text-align:center}
 .label_container .label_categoria a{color:#fff;font-weight:bold;font-size:12px;}
 #contenedor > div:nth-child(39) > div.side > div:nth-child(2) > a{color:red;font-weight;font-size:10px;}
 #contenedor > div:nth-child(39) > div.side > div:nth-child(5) > a{color:red;font-weight;font-size:10px;}
@@ -215,7 +215,7 @@ s#bot_sil .nav #next2{text-align:right;text-decoration:none;color:white;}
 .not_col_2 .clasificado img:hover{opacity:0.6;}
 .not_col_2 .label_container{position:relative;z-index:9;width:100%;height:25px;}
 .not_col_2 .label_container .flecha{width:0;height:0;border-top:10px solid white;border-right:10px solid transparent;border-left:10px solid transparent;margin-left:10px;margin-top:-25px;}
-.not_col_2 .label_container .label_categoria{background:#ec5c00;color:#fff;font-weight:bold;font-size:14px;text-transform:uppercase;width:93%;padding:4px 8px;line-height:1.2;display:inline-block;position:relative;z-index:-1;text-align:right;}
+.not_col_2 .label_container .label_categoria{background:#ec5c00;color:#fff;font-weight:bold;font-size:14px;text-transform:uppercase;width:93%;padding:4px 8px;line-height:1.2;display:inline-block;position:relative;z-index:-1;text-align:center;}
 .not_col_2 .tit_not{padding:0 4px 0 4px;}
 .not_col_2 .fot_not{width:100%;}
 .columna2 .noticias .noticia{background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(100%, #ffffff));background-image:-webkit-linear-gradient(#cccccc, #ffffff);background-image:-moz-linear-gradient(#cccccc, #ffffff);background-image:-o-linear-gradient(#cccccc, #ffffff);background-image:linear-gradient(#cccccc, #ffffff);border-bottom:2px solid #e6e6e6;margin-bottom:10px;}
