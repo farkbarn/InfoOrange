@@ -199,7 +199,7 @@ s#bot_sil .nav #next2{text-align:right;text-decoration:none;color:white;}
 .compartir{float:right;}
 .label_container{position:relative;z-index:9;}
 .label_container .flecha{display:none;}
-.label_container .label_categoria{background:#FF4C19;color:#fff;font-weight:bold;font-size:12px;line-height:1.2;text-transform:uppercase;width:auto;padding:5px 8px;text-align:center}
+.label_container .label_categoria{background:#FF4C19;color:#fff;font-weight:bold;font-size:12px;line-height:1.2;text-transform:uppercase;width:auto;padding:5px 8px;text-align:center;}
 .label_container .label_categoria a{color:#fff;font-weight:bold;font-size:12px;}
 #contenedor > div:nth-child(39) > div.side > div:nth-child(2) > a{color:red;font-weight;font-size:10px;}
 #contenedor > div:nth-child(39) > div.side > div:nth-child(5) > a{color:red;font-weight;font-size:10px;}
