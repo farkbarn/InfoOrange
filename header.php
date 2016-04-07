@@ -11,6 +11,15 @@ $val=rand(1, 10);
 define("homeUrl", "www.elinformador.com.ve");
 ?>
 	<head>
+
+
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'es', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT, gaTrack: true, gaId: 'UA-40942673-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
                 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:700,400" >
                 <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/style.css" >
                 <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/responsive.css" >
@@ -227,10 +236,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                         <?php include("zon_ads/Zona_D_2_490x90.html");?>
                                 </div>
                                 <div id="Zona_D_aux_490x90">
-                                        <?php // include("zon_ads/Zona_D_aux_490x90.html");?>
+                                        <?php include("zon_ads/Zona_D_aux_490x90.html");?>
                                 </div>
                                 <div id="Zona_D_2_aux_490x90">
-                                        <?php // include("zon_ads/Zona_D_2_aux_490x90.html");?>
+                                        <?php include("zon_ads/Zona_D_2_aux_490x90.html");?>
                                 </div>
 			</div>
 			<div class="limpiar"></div>
