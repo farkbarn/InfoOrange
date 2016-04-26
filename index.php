@@ -12,13 +12,13 @@ $val=rand(1, 10);
 				<div class="limpiar"></div>
 					<div class="zon_pub">
 						<div id="Zona_F_988x60">
-                                                        <?php //include("zon_ads/Zona_F_988x60.html");?>
+                                                        <?php include("zon_ads/Zona_F_988x60.html");?>
                                                 </div>
                                                 <div id="Zona_F_aux_988x60">
                                                         <?php //include("zon_ads/Zona_F_aux_988x60.html");?>
                                                 </div>
                                                 <div id="Zona_F_2_988x90">
-                                                        <?php //include("zon_ads/Zona_F_2_988x90.html");?>
+                                                        <?php include("zon_ads/Zona_F_2_988x90.html");?>
                                                 </div>
                                                 <div id="Zona_F_2_aux_988x90">
                                                         <?php //include("zon_ads/Zona_F_2_aux_988x90.html");?>

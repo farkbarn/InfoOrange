@@ -31,7 +31,7 @@ function googleTranslateElementInit() {
 		<meta name="author" content="Frank Barrera (farkbarn)" />
 		<meta name="organization" content="Diario El Informador C.A." />
 		<meta name="classification" content="Noticias, Actualidad, Diario" />
-		<meta name="description" content=" El Informador - Diario Online Venezolano - Medio de ComunicaciónSocial Venezolano" />
+		<meta name="description" content=" El Informador - Diario Venezolano" />
 		<meta name="google-site-verification" content="78f1cd448e49d9db" />
 		<meta name="keywords" content="mundo,latinoamerica,Argentina,Bolivia,Brasil,Chile,Colombia,Costa Rica,Cuba,Ecuador" />
 		<meta name="keywords" content="El Salvador,Guatemala,Haiti,Haití Honduras,Mexico,México,Nicaragua,Panama,Panamá" />
