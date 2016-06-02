@@ -1,3 +1,4 @@
+<?php include('ini.php');if(session_status() == PHP_SESSION_NONE){session_start();}?>
 <!DOCTYPE html>
 <html lang="es">
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -11,6 +12,18 @@ $val=rand(1, 10);
 define("homeUrl", "www.elinformador.com.ve");
 ?>
 	<head>
+		
+		<script>
+		    $(function() {
+			$.post('/wp-content/themes/InfoOrange-master/wid.php',{width:screen.width,height:screen.height},function(json){
+			    if(json.val) {
+				console.log(json.wid+'x'+json.hei+json.wscr);
+			    } else {
+				console.log('error');
+			    }
+			},'json');
+		    });
+		</script>
 
 
 <div id="google_translate_element"></div><script type="text/javascript">
