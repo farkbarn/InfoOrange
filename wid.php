@@ -9,7 +9,7 @@ if(isset($_POST['width']) && isset($_POST['height'])) {
 	{
 		if (($_SESSION['attwid']) && ($_SESSION['wid']<>$_COOKIE['wscr']))
 		{
-			$_SESSION['attwid']=false;
+			//$_SESSION['attwid']=false;
 			unset($_COOKIE['wscr']);
 			setcookie('wscr',$_SESSION['wid'],time()+365*24*60*60,'/','*');
 		}

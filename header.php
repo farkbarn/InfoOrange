@@ -12,10 +12,12 @@ $val=rand(1, 10);
 define("homeUrl", "www.elinformador.com.ve");
 ?>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
 		
 		<script>
 		    $(function() {
-			$.post('/wp-content/themes/InfoOrange-master/wid.php',{width:screen.width,height:screen.height},function(json){
+			$.post('wp-content/themes/InfoOrange-master/wid.php',{width:screen.width,height:screen.height},function(json){
 			    if(json.val) {
 				console.log(json.wid+'x'+json.hei+json.wscr);
 			    } else {
@@ -34,9 +36,9 @@ function googleTranslateElementInit() {
 
 
                 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:700,400" >
-                <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/style.css" >
-                <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/responsive.css" >
-                <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/slider.css" >
+                <link rel="stylesheet" href="wp-content/themes/InfoOrange-master/style.css" >
+                <link rel="stylesheet" href="wp-content/themes/InfoOrange-master/responsive.css" >
+                <link rel="stylesheet" href="wp-content/themes/InfoOrange-master/slider.css" >
 		<?php wp_head(); ?>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -89,14 +91,14 @@ function googleTranslateElementInit() {
 				</div>
 			</div>
 		</script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<?php /*		<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<?php /*		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+			<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 			<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 			<script src="http://code.jquery.com/jquery-latest.js"></script>
 */ ?>
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-		<script async type="text/javascript" src="/wp-content/themes/InfoOrange-master/js/jquery.cycle.all.js"></script>
-		<link rel="icon" type="image/gif" href="/wp-content/themes/InfoOrange-master/img/favicon.gif" />
+		<script async type="text/javascript" src="/wordpress/wp-content/themes/InfoOrange-master/js/jquery.cycle.all.js"></script>
+		<link rel="icon" type="image/gif" href="/wordpress/wp-content/themes/InfoOrange-master/img/favicon.gif" />
 <?php
 	$url=home_url(add_query_arg(array()));
 	$tit='';
