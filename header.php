@@ -14,7 +14,6 @@ define("homeUrl", "www.elinformador.com.ve");
 	<head>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
-		
 		<script>
 		    $(function() {
 			$.post('wp-content/themes/InfoOrange-master/wid.php',{width:screen.width,height:screen.height},function(json){
