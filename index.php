@@ -96,6 +96,7 @@ $val=rand(1, 10);
 							<div class="zon_pub">
 								<div id="Zona_K_200x200">
 									<?php include("zon_ads/Zona_K_200x200.html"); ?>
+									<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- test200x300 --><ins class="adsbygoogle"style="display:inline-block;width:200px;height:300px"data-ad-client="ca-pub-7524217459588616"data-ad-slot="9670307482"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 								</div>
                                                                 <div id="Zona_K_aux_200x200">
                                                                         <?php include("zon_ads/Zona_K_aux_200x200.html"); ?>
@@ -160,7 +161,7 @@ $val=rand(1, 10);
 								<?php include('zon_ads/Zona_l2_300x250.html'); ?>
                                                         </div>
                                                         <div id="Zona_Q_160x600">
-								<?php if($val>5){include('zon_ads/Zona_q_160x600.html');}else{include('zon_ads/Zona_q_160x600.html');} ?>
+								<?php include("zon_ads/Zona_CAT_n_300x600.html");?>
                                                         </div>
 						</div>
 						<div class="espacio05"></div>

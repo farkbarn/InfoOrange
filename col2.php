@@ -2,7 +2,7 @@
 							<div class="zon_pub">
 								<div id="Zona_K_200x200">
 									<?php include("zon_ads/Zona_CAT_K_200x200.html");?>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- test200x300 --><ins class="adsbygoogle"style="display:inline-block;width:200px;height:300px"data-ad-client="ca-pub-7524217459588616"data-ad-slot="9670307482"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+									<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- test200x300 --><ins class="adsbygoogle"style="display:inline-block;width:200px;height:300px"data-ad-client="ca-pub-7524217459588616"data-ad-slot="9670307482"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 								</div>
                                                                 <div id="Zona_K_aux_200x200">
                                                                         <?php include("zon_ads/Zona_CAT_K_aux_200x200.html");?>
