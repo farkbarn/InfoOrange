@@ -35,9 +35,9 @@ function googleTranslateElementInit() {
 
 
                 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:700,400" >
-                <link rel="stylesheet" href="wp-content/themes/InfoOrange-master/style.css" >
-                <link rel="stylesheet" href="wp-content/themes/InfoOrange-master/responsive.css" >
-                <link rel="stylesheet" href="wp-content/themes/InfoOrange-master/slider.css" >
+                <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/style.css" >
+                <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/responsive.css" >
+                <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/slider.css" >
 		<?php wp_head(); ?>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
