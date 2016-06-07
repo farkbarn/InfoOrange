@@ -27,6 +27,14 @@ define("homeUrl", "www.elinformador.com.ve");
 		</script>
 
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7524217459588616",
+    enable_page_level_ads: true
+  });
+</script>
+
 <div id="google_translate_element"></div><script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'es', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT, gaTrack: true, gaId: 'UA-40942673-1'}, 'google_translate_element');
