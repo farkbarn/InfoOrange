@@ -175,8 +175,78 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <?php include('zon_ads/pageunder.js'); ?>
 
+
+
+<script>
+//<![CDATA[
+$(document).ready(function(){
+$("#pageflip").hover(function() {
+$("#pageflip img , .msg_block").stop()
+.animate({
+width: '307px',
+height: '319px'
+}, 500);
+} , function() {
+$("#pageflip img").stop()
+.animate({
+width: '50px',
+height: '52px'
+}, 220);
+$(".msg_block").stop()
+.animate({
+width: '50px',
+height: '50px'
+}, 200);
+});
+});
+//]]>
+</script>
+
+<style>
+/* Página doblada----------------------------------------------- */
+#pageflip {
+position: relative;
+right: 0;
+top: 0px; /* Cambiar a 30px si tienes la navbar (barra de navegación) */
+float: right;
+z-index:9;
+}
+#pageflip img {
+width: 50px;
+height: 52px;
+z-index: 99;
+position: absolute;
+right: 0;
+top: 0;
+-ms-interpolation-mode: bicubic;
+}
+#pageflip .msg_block {
+width: 50px;
+height: 50px;
+overflow: hidden;
+position: absolute;
+right: 0;
+top: 0;
+background: url(http:#PONERIMAGEN) no-repeat right top;
+}
+#pageflipMirror {
+position: static;
+right: 0;
+top: 0;
+float: right;
+}
+</style>
+
+
 	</head>
 	<body class="<?php /* echo exclude_categoria();*/ ?>">
+
+<div id='pageflip'>
+<a href='http://nombre-de-mi-blog.blogspot.com/atom.xml'>
+<img src='http://lh3.googleusercontent.com/-E0DxKFTKzhU/UJiWdesl7UI/AAAAAAAADP4/9kK-z8646YA/s000/pagina-doblada.png' style='width: 50px; height: 52px; overflow-x: hidden; overflow-y: hidden;'/></a>
+<div class='msg_block' style='width: 50px; height: 50px; overflow-x: hidden; overflow-y: hidden; '/>
+</div>
+
 	<div id="inv_cen">
 		<div id="inv400"><?php //include("zon_ads/Zona_Inv_400.html");?></div>
 	        <div id="inv800"><?php //include("zon_ads/Zona_Inv_800.html");?></div>
