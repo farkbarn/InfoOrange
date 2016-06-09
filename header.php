@@ -215,7 +215,7 @@ overflow: hidden;
 position: absolute;
 right: 0;
 top: 0;
-background: url(/wp-content/themes/InfoOrange-master/img/bgesq3.png) no-repeat right top;
+background: url(/wp-content/themes/InfoOrange-master/img/bgesq4.png) no-repeat right top;
 }
 #pageflipMirror {
 position: static;
