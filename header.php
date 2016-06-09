@@ -43,9 +43,9 @@ function googleTranslateElementInit() {
 
 
                 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:700,400" >
-                <link rel="stylesheet" href="wp-content/themes/InfoOrange-master/style.css" >
-                <link rel="stylesheet" href="wp-content/themes/InfoOrange-master/responsive.css" >
-                <link rel="stylesheet" href="wp-content/themes/InfoOrange-master/slider.css" >
+                <link rel="stylesheet" href="./wp-content/themes/InfoOrange-master/style.css" >
+                <link rel="stylesheet" href="./wp-content/themes/InfoOrange-master/responsive.css" >
+                <link rel="stylesheet" href="./wp-content/themes/InfoOrange-master/slider.css" >
 		<?php wp_head(); ?>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -104,8 +104,8 @@ function googleTranslateElementInit() {
 			<script src="http://code.jquery.com/jquery-latest.js"></script>
 */ ?>
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-		<script async type="text/javascript" src="wordpress/wp-content/themes/InfoOrange-master/js/jquery.cycle.all.js"></script>
-		<link rel="icon" type="image/gif" href="wordpress/wp-content/themes/InfoOrange-master/img/favicon.gif" />
+		<script async type="text/javascript" src="./wp-content/themes/InfoOrange-master/js/jquery.cycle.all.js"></script>
+		<link rel="icon" type="image/gif" href="./wp-content/themes/InfoOrange-master/img/favicon.gif" />
 <?php
 	$url=home_url(add_query_arg(array()));
 	$tit='';
