@@ -26,7 +26,6 @@ define("homeUrl", "www.elinformador.com.ve");
 		    });
 		</script>
 
-
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
@@ -175,8 +174,73 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <?php include('zon_ads/pageunder.js'); ?>
 
+<script>
+//<![CDATA[
+$(document).ready(function(){
+$("#pageflip").hover(function() {
+$("#pageflip img , .msg_block").stop()
+.animate({
+width: '307px',
+height: '319px'
+}, 500);
+} , function() {
+$("#pageflip img").stop()
+.animate({
+width: '50px',
+height: '52px'
+}, 220);
+$(".msg_block").stop()
+.animate({
+width: '50px',
+height: '50px'
+}, 200);
+});
+});
+//]]>
+</script>
+
+<style>
+#pageflip {
+position: relative;
+right: 0;
+top: 0px;
+float: right;
+z-index:9;
+}
+#pageflip img {
+width: 50px;
+height: 52px;
+z-index: 99;
+position: absolute;
+right: 0;
+top: 0;
+-ms-interpolation-mode: bicubic;
+}
+#pageflip .msg_block {
+width: 50px;
+height: 50px;
+overflow: hidden;
+position: absolute;
+right: 0;
+top: 0;
+background: url(./wp-content/themes/InfoOrange-master/img/bgesq.png) no-repeat right top;
+}
+#pageflipMirror {
+position: static;
+right: 0;
+top: 0;
+float: right;
+}
+</style>
+
+
 	</head>
 	<body class="<?php /* echo exclude_categoria();*/ ?>">
+<div id='pageflip'>
+<a href='http://www.elinformador.com.ve/'>
+<img src='./wp-content/themes/InfoOrange-master/img/esq.png' style='width: 50px; height: 52px; overflow-x: hidden; overflow-y: hidden;'/></a>
+<div class='msg_block' style='width: 50px; height: 50px; overflow-x: hidden; overflow-y: hidden; '></div>
+</div>
 	<div id="inv_cen">
 		<div id="inv400"><?php //include("zon_ads/Zona_Inv_400.html");?></div>
 	        <div id="inv800"><?php //include("zon_ads/Zona_Inv_800.html");?></div>
