@@ -33,14 +33,6 @@ define("homeUrl", "www.elinformador.com.ve");
     enable_page_level_ads: true
   });
 </script>
-
-<div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'es', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT, gaTrack: true, gaId: 'UA-40942673-1'}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
                 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:700,400" >
                 <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/style.css" >
                 <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/responsive.css" >
