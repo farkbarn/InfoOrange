@@ -172,8 +172,8 @@ $(document).ready(function(){
 $("#pageflip").hover(function() {
 $("#pageflip img , .msg_block").stop()
 .animate({
-width: '307px',
-height: '319px'
+width: '300px',
+height: '320px'
 }, 500);
 } , function() {
 $("#pageflip img").stop()
@@ -193,9 +193,9 @@ height: '50px'
 
 <style>
 #pageflip {
-position:fixed;
-right:0px;
-top: 0px;
+position:relative;
+right:-8px;
+top:-10px;
 float: right;
 z-index:9;
 }
@@ -215,7 +215,7 @@ overflow: hidden;
 position: absolute;
 right: 0;
 top: 0;
-background: url(./wp-content/themes/InfoOrange-master/img/bgesq2.png) no-repeat right top;
+background: url(./wp-content/themes/InfoOrange-master/img/bgesq.png) no-repeat right top;
 }
 #pageflipMirror {
 position: static;
