@@ -193,8 +193,8 @@ height: '50px'
 
 <style>
 #pageflip {
-position: relative;
-right: 0;
+position:fixed;
+right:0px;
 top: 0px;
 float: right;
 z-index:9;
