@@ -34,7 +34,7 @@ define("homeUrl", "www.elinformador.com.ve");
   });
 </script>
                 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:700,400" >
-                <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/style.css?v=5" >
+                <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/style.css?v=6" >
                 <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/responsive.css" >
                 <link rel="stylesheet" href="/wp-content/themes/InfoOrange-master/slider.css" >
 		<?php wp_head(); ?>
@@ -215,7 +215,7 @@ overflow: hidden;
 position: absolute;
 right: 0;
 top: 0;
-background: url(/wp-content/themes/InfoOrange-master/img/bgesq3.png) no-repeat right top;
+background: url(/wp-content/themes/InfoOrange-master/img/bgesq4.png) no-repeat right top;
 }
 #pageflipMirror {
 position: static;
