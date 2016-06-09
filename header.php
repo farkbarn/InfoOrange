@@ -194,8 +194,8 @@ height: '50px'
 <style>
 #pageflip {
 position:relative;
-right:-8px;
-top:-10px;
+right:0px;
+top:-15px;
 float: right;
 z-index:9;
 }
@@ -215,7 +215,7 @@ overflow: hidden;
 position: absolute;
 right: 0;
 top: 0;
-background: url(./wp-content/themes/InfoOrange-master/img/bgesq.png) no-repeat right top;
+background: url(/wp-content/themes/InfoOrange-master/img/bgesq3.png) no-repeat right top;
 }
 #pageflipMirror {
 position: static;
@@ -230,7 +230,7 @@ float: right;
 	<body class="<?php /* echo exclude_categoria();*/ ?>">
 <div id='pageflip'>
 <a href='http://www.elinformador.com.ve/'>
-<img src='./wp-content/themes/InfoOrange-master/img/esq.png' style='width: 50px; height: 52px; overflow-x: hidden; overflow-y: hidden;'/></a>
+<img src='/wp-content/themes/InfoOrange-master/img/esq.png' style='width: 50px; height: 52px; overflow-x: hidden; overflow-y: hidden;'/></a>
 <div class='msg_block' style='width: 50px; height: 50px; overflow-x: hidden; overflow-y: hidden; '></div>
 </div>
 	<div id="inv_cen">
