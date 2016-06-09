@@ -23,6 +23,7 @@ h2{color:black;font-weight:bold;font-size:12px;}
 h1{color:black;font-weight:bold;font-size:16px;}
 a{text-decoration:none;}
 a:focus, a:active{outline:none;}
+#pageflip a:hover{opacity:1 Important;}
 .p{font-family:′roboto′, Arial, serif;font-weight:400;}
 h1 h1 a h2 h2 a{line-height:1.2em;}
 article{padding:0;margin:0;line-height:0em;}
